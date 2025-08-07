@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smelter Plant </title>
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home"> NALCO Smelter Plant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#departments">Departments</a></li>
+        <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#safety">Safety</a></li>
+        <li class="nav-item"><a class="nav-link" href="#container">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-container">
+  <div class="slide fade" style="background-image: url('images/smelter-banner-1.jpg');"></div>
+  <div class="slide fade" style="background-image: url('images/gate.jpg');"></div>
+  <div class="slide fade" style="background-image: url('images/site.jpg');"></div>
+  <div class="slide fade" style="background-image: url('images/Picture\ 1.png');"></div>
+
+
+
+  <div class="hero-text text-white text-center">
+ 
+    <h1 class="fw-bold">Powering progress with every pot of aluminium.</h1>
+    <a href="#about" class="btn btn-light scroll-btn mt-4">↓</a>
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about" class="container text-center">
+  <h2 class="mb-4">About the Smelter Plant</h2>
+  <p class="mb-4">
+    The Smelter Plant of NALCO is one of India’s premier aluminium production facilities, located at Angul, Odisha. 
+    It is a key component of NALCO's integrated aluminium complex, which includes bauxite mining, alumina refining, 
+    aluminium smelting, and power generation.
+  </p>
+  <ul id="more-about-smelter" class="text-start">
+    <li><strong>Location:</strong> Angul, Odisha, India</li>
+    <li><strong>Commissioned:</strong> 1987</li>
+    <li><strong>Production Capacity:</strong> Over 4.6 lakh tonnes of aluminium annually</li>
+    <li>180 KA cell technology.</li>
+    <li>Micro-processor based pot regulation system.</li>
+    <li>Fume treatment plant with dry-scrubbing system for pollution control and fluoride salt recovery.</li>
+    <li>Integrated facility for manufacturing carbon anodes, bus bars, anode stems etc.</li>
+    <li>Hyper Dense Phase System (HDPS) for alumina feeding.</li>
+    <li>4 x 35 Tonne and 4 x 45 Tonne furnaces and 2 x 15 TPH and 2 x 20 TPH ingot casting machines.</li>
+    <li>4 x 45 Tonne furnaces and 2 x 9.5 TPH wire rod mills.</li>
+    <li>2 x 45 Tonne furnaces and 60/42 per drop billet casting machine.</li>
+    <li>2 x 1.5 Tonne induction furnace with a 4 TPH alloy ingot casting machine.</li>
+    <li>26,000 TPA strip casting machines.</li>
+    <li>2 x 45 Tonne furnaces and 9 TPH tee ingot casting machine.</li>
+    <li>2 x 45 Tonne furnaces and 20 TPH sow ingot casting facility are being installed.</li>
+  </ul>
+</section>
+
+<!-- Departments Section -->
+<section id="departments" class="container py-5 text-center">
+  <h2 class="mb-5 fw-bold">Departments</h2>
+  <div class="row justify-content-center g-4">
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Carbon Area</h5>
+        <p class="desc text-muted small mt-2 d-none">It has GAP,BAKE-OVEN,RODDING SHAOP,MAINTENANCE</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Potline</h5>
+        <p class="desc text-muted small mt-2 d-none">Electrolysis process and cell monitoring.It has Potline-I,Potline-II,Potline-III,Potline-IV,MAINTENANCE</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">CAST HOUSE</h5>
+        <p class="desc text-muted small mt-2 d-none">Aluminium casting and product formation.It has Cast house-A,Cast house-B,Cast house-C,MAINTENANCE</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">RPU</h5>
+        <p class="desc text-muted small mt-2 d-none">Rolled product unit</p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">stores</h5>
+        <p class="desc text-muted small mt-2 d-none"></p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">SHE</h5>
+        <p class="desc text-muted small mt-2 d-none">Safety,Health and Environment</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0"> Utility</h5>
+        <p class="desc text-muted small mt-2 d-none">It has compressors and pump.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">MES</h5>
+        <p class="desc text-muted small mt-2 d-none">Mobile Equipment Shop</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">CRS</h5>
+        <p class="desc text-muted small mt-2 d-none">Central Repairing Shop</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Systems</h5>
+        <p class="desc text-muted small mt-2 d-none">It plays a vital role in ensuring that the plant’s technological infrastructure operates efficiently and securely.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">HRD & Administration</h5>
+        <p class="desc text-muted small mt-2 d-none"></p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Finance</h5>
+        <p class="desc text-muted small mt-2 d-none">Ensures workplace safety and emergency readiness.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Materials</h5>
+        <p class="desc text-muted small mt-2 d-none"></p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Training Centre</h5>
+        <p class="desc text-muted small mt-2 d-none"></p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-2">
+      <div class="card p-3 shadow-sm department-card" onclick="toggleDescription(this)">
+        <h5 class="fw-bold mb-0">Safety</h5>
+        <p class="desc text-muted small mt-2 d-none">Ensures workplace safety and emergency readiness.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- News Section -->
+<section id="news" class="container">
+  <h2 class="text-center mb-4">News & Announcements</h2>
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5>New Furnace Commissioned</h5>
+      <small class="text-muted">2025-06-01</small>
+      <p class="mt-2">A new energy-efficient furnace was added to the Electrolysis unit.</p>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5>Safety Drill Conducted</h5>
+      <small class="text-muted">2025-06-15</small>
+      <p class="mt-2">Fire safety and evacuation drill successfully completed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Safety Section -->
+<section id="safety" class="container">
+  <h2 class="text-center mb-4">Safety Guidelines</h2>
+  <div class="accordion" id="safetyAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+          Wear Protective Gear
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#safetyAccordion">
+        <div class="accordion-body">
+          Always wear helmet, gloves, and safety shoes in production areas.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+          Emergency Exits
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#safetyAccordion">
+        <div class="accordion-body">
+          Know the nearest emergency exits and assembly points.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="container">
+    <h2>Contact us</h2>
+    <form id="contactForm">
+      <!-- Outsider Details -->
+      <label for="senderName">Your Name:</label>
+      <input type="text" placeholder="Enter you name" id="senderName" name="senderName" required />
+
+      <label for="senderEmail">Your Email:</label>
+      <input type="email" placeholder="Enter you email-id" id="senderEmail" name="senderEmail" required />
+
+      <!-- Employee Details -->
+      <label for="empId">Employee ID:</label>
+      <select id="empId" name="empId" required>
+        <option value="">Select Employee ID</option>
+        <option value="10001">10001</option>
+        <option value="10234">10234</option>
+        <option value="10567">10567</option>
+        <option value="10999">10999</option>
+      </select>
+
+      <label for="empName">Employee Name:</label>
+      <input type="text" id="empName" name="empName" readonly />
+
+      <label for="empEmail">Employee Email:</label>
+      <input type="email" id="empEmail" name="empEmail" readonly />
+
+      <!-- Message -->
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Write your message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+
+
+
+  <!-- Footer Section -->
+  <footer>
+  <div class="footer-info">
+    Email: nalcoindia@gmail.com |
+    Phone: +91-1234567890 |
+    © 2025 NALCO Smelter Plant. All Rights Reserved.
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
